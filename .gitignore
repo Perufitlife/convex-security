@@ -1,0 +1,4 @@
+node_modules/
+*.log
+convex-report.html
+report.html
