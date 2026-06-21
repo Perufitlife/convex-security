@@ -1,10 +1,10 @@
 {
   "name": "convex-security",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Audit any Convex backend for public functions reachable without auth — and PROVE each leak live by calling the public HTTP API anonymously and returning the real rows. No deploy key needed for the keyless scan.",
   "type": "module",
   "bin": {
-    "convex-security": "./scripts/cli.js"
+    "convex-security": "scripts/cli.js"
   },
   "scripts": {
     "audit": "node scripts/audit.js",
@@ -27,7 +27,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Perufitlife/convex-security"
+    "url": "git+https://github.com/Perufitlife/convex-security.git"
   },
   "homepage": "https://github.com/Perufitlife/convex-security",
   "engines": {
